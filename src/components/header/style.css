@@ -1,0 +1,208 @@
+.logo {
+  font-weight: 600;
+  font-size: 20px;
+  float: left;
+  margin-top: 3px;
+}
+
+header {
+  position: relative;
+}
+
+.presentation1 {
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  width: 300px;
+  font-size: 40px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.presentation2 {
+  position: absolute;
+  top: 150px;
+  left: 50px;
+  width: 300px;
+  font-size: 20px;
+  font-weight: 300;
+  color: #fff;
+}
+
+.box{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.block{
+  display: flex;
+}
+
+.list{
+  list-style-type: none;
+  display: flex;
+}
+
+.list li{
+  padding:0 5px;
+  font-size: 2vw;
+  cursor: pointer;
+  transition: opacity 500ms ease;
+}
+
+ul.list li:hover {
+  opacity: 0.5;
+}
+
+.shop {
+  /* text-align: center; */
+  /* justify-content: center; */
+  cursor: pointer;
+  transition: color, transform 500ms ease;
+}
+
+.shop:hover,
+.shop.active {
+  color: #dc3d3d;
+  transform: scale(1.5);
+}
+
+.shop-cart {
+  position: absolute;
+  top: 30px;
+  right: 0;
+  width: 450px;
+  background-color: #fafafa;
+  -webkit-box-shadow: 4px 5px 15px -7px #606060;
+  box-shadow: 4px 5px 15px -7px #606060;
+  z-index: 1000;
+
+  padding: 20px;
+  padding-bottom: 0;
+}
+
+.shop-cart .item {
+  width: 100%;
+  float: left;
+  margin-bottom: 20px;
+}
+
+.shop-cart .item img {
+  width: 70px;
+  height: 70px;
+  float: left;
+  margin-right: 20px;
+}
+
+.shop-cart .item h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.shop-cart .item p {
+  color: #797979;
+  font-weight: 600;
+}
+
+.empty h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.summa {
+  float: left;
+  width: 100%;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 320px) {
+  .list li {
+    font-size: 4vw;
+  }
+
+  .logo {
+    font-weight: 300;
+    font-size: 15px;
+  }
+  .presentation1{
+    font-size: 4vw;
+  }
+  .presentation2{
+    font-size: 4vw;
+  }
+
+  .presentation{
+    float: top;
+  }
+
+  .shop-cart{
+    width: 250px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .list li {
+    font-size: 3vw;
+  }
+
+  .logo {
+    font-weight: 450;
+    font-size: 20px;
+  }
+
+  .presentation1{
+    font-size: 3vw;
+  }
+  .presentation2{
+    font-size: 3vw;
+  }
+
+  .shop-cart{
+    width: 450px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+
+  .list li {
+    font-size: 2vw;
+  }
+
+  .logo {
+    font-weight: 1000;
+    font-size: 30px;
+  }
+
+  .presentation1{
+    font-size: 2vw;
+  }
+  .presentation2{
+    font-size: 2vw;
+  }
+
+  .shop-cart{
+    width: 450px;
+  }
+}
+
+
+/* приховуємо меню за замовчуванням */
+.burger-menu {
+  display: none;
+}
+
+/* відображаємо меню при розмірі екрану менше 720px */
+@media (max-width: 768px) {
+  .burger-menu {
+    display: block; /* або display: flex; */
+  }
+  .list {
+    display: none;
+  }
+}
+
+
+/*  */

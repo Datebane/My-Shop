@@ -1,0 +1,14 @@
+.delete{
+    color: #ca5252;
+    float: right;
+    position: relative;
+    top: -5px;
+    cursor: pointer;
+    margin-right: 5px;
+    transition: color, transform 500ms ease;
+}
+
+.delete:hover{
+    transform: scale(1.5);
+    color: #d83030;
+}

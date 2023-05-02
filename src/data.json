@@ -1,0 +1,51 @@
+[
+    {
+      "id": 1,
+      "title": "Стілець",
+      "img": "id-1.jpg",
+      "desc": "dfkjbndfjkbnkdjfb",
+      "category": "chair",
+      "price": "49.99"
+    },
+    {
+      "id": 2,
+      "title": "Стіл",
+      "img": "id-2.jpg",
+      "desc": "gfjgfdjdfgjfgj",
+      "category": "tables",
+      "price": "149.99"
+    },
+    {
+      "id": 3,
+      "title": "Диван",
+      "img": "id-3.jpg",
+      "desc": "fgjfghjdfgj",
+      "category": "sofa",
+      "price": "549.99"
+    },
+    {
+      "id": 4,
+      "title": "Лампа",
+      "img": "id-4.jpg",
+      "desc": "gfjdgjdfjf",
+      "category": "light",
+      "price": "25.00"
+    },
+    {
+      "id": 5,
+      "title": "Крісло",
+      "img": "id-5.jpg",
+      "desc": "gfjdgjdfjf",
+      "category": "chair",
+      "price": "165.90"
+    },
+    {
+      "id": 6,
+      "title": "Ліжко",
+      "img": "id-6.jpg",
+      "desc": "gfjdgjdfjf",
+      "category": "sofa",
+      "price": "195.90"
+    }
+  ]
+  
